@@ -1,0 +1,39 @@
+.newscard{
+    /* height: 100vh; */
+    width: 100%;
+    background-color: beige;
+    background-size: cover;
+}
+
+.Topic {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.types{
+    display: flex;
+    justify-content: center;
+}
+
+.news-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 5px solid white;
+    /* border-radius: 20px; */
+    margin: 15px;
+    padding: 0 5px;
+}
+
+.news-row{
+    display: flex;
+}
+
+.container-content{
+    margin: 15px;
+}
+
+.cursor{
+    cursor: pointer;
+}
